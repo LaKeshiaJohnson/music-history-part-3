@@ -1,0 +1,86 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/** Nav Bar **/
+nav ul li {
+	list-style-type: none;
+	display: inline;
+
+}
+
+nav {
+	border: 2px solid black;
+	background-color: #FFB4B0;
+	margin-bottom: 10px;
+	width: 100%;
+
+}
+/******************/
+
+main {
+	border: 2px solid black;
+	background-color: #FEFAC0  ;
+	/*float: right;*/
+	width: 70%;
+	/*display: inline-block;*/
+	padding-left: 10px;
+	padding-top: 10px;
+	
+}
+
+ aside {
+	border: 2px solid black;
+	background-color: #4DD7FA;
+	/*float: left;
+	display: inline-block; */
+	width: 30%;
+	padding-left: 10px;
+	margin-right: 10px;
+
+}
+
+.wrapper {
+	margin: 30px;
+	
+}
+/** Flex box styles **/
+.flex-container {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	background-color:;
+	justify-content: center;
+	-webkit-justify-content: center;
+
+}
+
+.flex-item {
+	background-color:;
+	
+}
+/********************/
+
+
+/** Form Options **/
+.col {
+	column-count: 2;
+
+}
+
+
+select {
+	width: 50%;
+	border: 2px solid black;
+	font-size: 15px
+}
+button {
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	border: 2px solid black;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 10%;
+	padding: 0 20px;
+	margin-bottom: 5px;
+}

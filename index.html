@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+  		<meta charset="utf-8">
+  		<title>Music History</title>
+  		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			
+			<header>
+				<nav>
+					<ul>
+						<li>View Music |</li>
+						<li><a href="#">Add Music |</a></li>
+						<li><a href="#">Profile</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div class="flex-container">
+			<aside class="flex-item">
+				<p>Song Length:</p>
+				<input type="range" name="song-length" min="0" max="100"><br>
+				<p>Artist:</p>
+					<form>
+					<select name="artists">
+						<option value="select" selected>Options</option>
+						<option value="select">Adele</option>
+						<option value="select">Maroon 5</option>
+						<option value="select">Michael Jackson</option>
+						<option value="select">Bruno Mars</option>
+						<option value="select">Justin Timberlake</option>
+					</select>
+				</form>
+				<p>Album:</p>
+					<select name="albums">
+						<option value="select" selected>Options</option>
+						<option value="select">25</option>
+						<option value="select">Songs About Jane</option>
+						<option value="select">Thriller</option>
+						<option value="select">24K Magic</option>
+						<option value="select">The 20/20 Experience</option>
+					</select>
+
+				<p>Genre:</p>
+					<div class="col">
+					<input type="checkbox" name="genre" value="rock"> Rock<br>
+					<input type="checkbox" name="genre" value="pop"> Pop<br>
+					<input type="checkbox" name="genre" value="blues"> Blues<br>
+					<input type="checkbox" name="genre" value="classical"> Classical<br>
+					<input type="checkbox" name="genre" value="Jazz"> Jazz<br>
+					<input type="checkbox" name="genre" value="hip hop"> Hip Hop
+					</div>
+					<br>
+					<button type="button">Filter</button>
+			</aside>
+
+			<main id="main-content" class="flex-item">
+			 	<!-- <h2>Hello:</h2>
+			 	<p>Adele | 25 | Pop
+			 	<h2>She Will Be Loved:</h2>
+			 	<p>Maroon 5 | Songs About Jane | Pop
+			 	<h2>Human Nature:</h2>
+			 	<p>Michael Jackson | Thriller | Pop
+			 	<h2>24K Magic:</h2>
+			 	<p>Bruno Mars | 24K Magic | Pop
+			 	-->
+			</main>
+			</div>
+		</div>
+		<script src="javascript/main.js"></script>
+	</body>
+</html>
