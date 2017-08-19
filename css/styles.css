@@ -1,13 +1,49 @@
+/*** NEW STUFF FOR VERSION 3 ***/
+ul > li {
+  display: inline;
+  list-style-type: none;
+  margin: 5px 15px 0 15px;
+  background-color: goldenrod;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#addDiv {
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+#input-box {
+	display: block;
+	margin: 0 auto;
+	border: 2px solid black;
+
+}
+
+
+/** OLD VERSION 2 STYLING**/
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
 }
 
 /** Nav Bar **/
-nav ul li {
+/*nav ul li {
 	list-style-type: none;
 	display: inline;
 
-}
+}*/
 
 nav {
 	border: 2px solid black;
