@@ -13,13 +13,13 @@
 			<header>
 				<nav>
 					<ul>
-						<li>View Music |</li>
-						<li><a href="#">Add Music |</a></li>
-						<li><a href="#">Profile</a></li>
+						<li><a href="#" id="link-home">Home</a> </li>
+						<li><a href="#" id="link-add">Add Music</a> </li>
+						<li><a href="#" id="link-list">List Music</a></li>
 					</ul>
 				</nav>
 			</header>
-			
+		<section id="home-view">
 			<div class="flex-container">
 			<aside class="flex-item">
 				<p>Song Length:</p>
@@ -59,18 +59,39 @@
 			</aside>
 
 			<main id="main-content" class="flex-item">
-			 	<!-- <h2>Hello:</h2>
-			 	<p>Adele | 25 | Pop
-			 	<h2>She Will Be Loved:</h2>
-			 	<p>Maroon 5 | Songs About Jane | Pop
-			 	<h2>Human Nature:</h2>
-			 	<p>Michael Jackson | Thriller | Pop
-			 	<h2>24K Magic:</h2>
-			 	<p>Bruno Mars | 24K Magic | Pop
-			 	-->
+			 	
 			</main>
 			</div>
+
+			
+  			<!-- home -->
+		</section>
+
+			<section class="hidden" id="list-view">
+  			<!-- list -->
+			</section>
+
+			<section class="hidden" id="add-view">
+				<div id="addDiv">
+
+  				Song name:<br>
+  				<input type="text" id="sName-input" class="input-box" size="30"><br><br>
+  				Artist: <br>
+  				<input type="text" id="sArtist-input" class="input-box" size="30"><br><br>
+  				Album: <br>
+  				<input type="text" id="sAlbum-input" class="input-box" size="30"><br><br>
+  				Genre:<br>
+  				<input type="text" id="sGenre-input" class="input-box" size="30"><br><br>
+  				<button id="add-btn">Add</button>
+
+  				</div>
+			</section>
+			
+			
 		</div>
+		<script type="text/javascript" src="javascript/home.js"></script>
+		<script type="text/javascript" src="javascript/list.js"></script>
+		<script type="text/javascript" src="javascript/add.js"></script>
 		<script src="javascript/main.js"></script>
 	</body>
 </html>
